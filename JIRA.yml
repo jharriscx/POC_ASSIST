@@ -1,0 +1,32 @@
+jira:
+  url: https://jharriscx.atlassian.net/
+  username: jharris.checkmarx@gmail.com
+  token: xxxxxxxxxxxxxxxxxx
+  project: JHJVL
+  issue-type: Bug
+  priorities:
+    High: High
+    Medium: Medium
+    Low: Low
+    Informational: Lowest
+  open-transition: In Progress
+  close-transition: Done
+  open-status:
+    - Backlog
+    - Selected for Development
+    - In Progress
+  closed-status:
+    - Done
+  fields:
+    - type: result
+      name: application
+      jira-field-name: Application
+      jira-field-type: label
+#    - type: result
+#      name: cwe
+#      jira-field-name: CWEs
+#      jira-field-type: label
+    - type: result
+      name: category
+      jira-field-name: Category
+      jira-field-type: label
